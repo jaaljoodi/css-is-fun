@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin: 0 auto;
+  width: 620px;
+  background: #2e354f;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+h1 {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+h2 {
+  color: #ef5839;
+  font-size: 24px;
+  margin: 30px 0 12px 0;
+}
+
+a {
+  color: #ef5839;
+}
+
+a:hover, a:focus  {
+  color: #8d99ae;
+  transition: 0.2s; 
+}
+
+span {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.full-bleed {
+  box-shadow: 0 0 0 100vmax #fff;
+  clip-path: inset(0 -100vmax);
+}
+
+.section-one {
+  background: #fff;
+  padding: 10px 10px 30px 10px;
+  width: 120%;
+}
+
+.section-two {
+  padding: 10px 10px 30px 10px;
+  width: 120%;
+}
+
+.section-one p {
+  color: #2e354f;
+}
+
+.section-two p {
+  color: #fff;
+  
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 14px 35px;
+  font-weight: bold;
+  margin-right: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-us {
+  color: #fff;
+  background: #ef5839;
+}
+
+.btn:hover, 
+.btn:focus {
+  background: #8d99ae;
+  transition: 0.2s;
+}
